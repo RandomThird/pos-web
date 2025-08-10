@@ -6,7 +6,7 @@ if (!isset($_SESSION['payment_details'])) {
    header('location:home.php');
    exit;
 }
-
+//
 $payment_details = $_SESSION['payment_details']; // Retrieve payment details from the session
 
 if (isset($_POST['pay_now'])) { // Check if the "Pay Now" button was clicked
